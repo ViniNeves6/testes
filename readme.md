@@ -2,9 +2,9 @@
  # UX-Tracking: User eXperience Tracking
 Repositório destinado a abrigar o código-fonte de todas as aplicações relacionadas ao ecossistema da ferramenta UX-Tracking.
 
-div align="center"
-img src="![Video_1688381473_Trim](https://github.com/ViniNeves6/testes/assets/91764267/b6001b29-ecf2-422f-b66c-5cf82db67cff)" width="0px" /
-/div
+<div align="center">
+<img src="![Video_1688381473_Trim](https://github.com/ViniNeves6/testes/assets/91764267/b6001b29-ecf2-422f-b66c-5cf82db67cff)" width="0px" />
+</div>
 
 
 
