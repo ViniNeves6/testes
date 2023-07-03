@@ -46,7 +46,7 @@ A extensão também pode capturar entradas de teclado, registrando a digitação
 #### Transcrição de voz
 Utilizando o [WebKit Voice Recognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition), o módulo cliente é capaz de capturar voz, incluindo pausas, transcrevendo e enviando como entradas de texto.
 ### Armazenamento
-Utilizando nosso [Servidor] (uxtracking.andrepereira.eng.br/), o módulo de armazenamento é o responsável por receber as requisições contendo dados de rastreamento de interações, e em seguida organizá-los e armazená-los.
+Utilizando nosso [Servidor](https://uxtracking.andrepereira.eng.br/), o módulo de armazenamento é o responsável por receber as requisições contendo dados de rastreamento de interações, e em seguida organizá-los e armazená-los.
 ### Visualizador
 Aplicação desktop desenvolvida em C#/WPF, utilizando .NET Framework 4.5, é responsável por permitir a visualização dos dados armazenados no módulo anterior. Possui três recursos de visualização, descritos a seguir.
 #### Reprodução de sessão
