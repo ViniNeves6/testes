@@ -1,5 +1,5 @@
 ![Badge](https://img.shields.io/badge/PHP-7.0-information?style=flat&logo=PHP&logoColor=white&color=777BB4![Badge])  ![Badge](https://img.shields.io/badge/framework-%204.5.2-information?style=flat&logo=.NET&logoColor=white&color=512BD4)  ![Badge](https://img.shields.io/badge/%20-5.0-information?style=flat&logo=.NET&logoColor=white&color=512BD4) ![Badge](https://img.shields.io/badge/VS%20Code-1.60-information?style=flat&logo=Visual-Studio-Code&logoColor=white&color=007ACC)
- # UX-Tracking: User eXperience Traking
+ # UX-Tracking: User eXperience Tracking
 Repositório destinado a abrigar o código-fonte de todas as aplicações relacionadas ao ecossistema da ferramenta UX-Tracking.
 
 ## Tabela de conteúdos
@@ -29,7 +29,7 @@ Repositório destinado a abrigar o código-fonte de todas as aplicações relaci
 *  [Google Chrome](https://www.google.com/chrome/)
 
 ## Módulos
-A UX-Traking é constituída de 3 módulos: Cliente, Servidor de armazenamento, e visualizador. Os três módulos são responsáveis respectivamente por coletar dados de interação; organizar e armazenar; e prover formas de visualizar os dados capturados. Os módulos são descritos a seguir.
+A UX-Tracking é constituída de 3 módulos: Cliente, Servidor de armazenamento, e visualizador. Os três módulos são responsáveis respectivamente por coletar dados de interação; organizar e armazenar; e prover formas de visualizar os dados capturados. Os módulos são descritos a seguir.
 ### Cliente
 Desenvolvido como uma extensão do navegador Google Chrome utilizando Javascript, este módulo é responsável por capturar - do lado cliente - as interações dos desenvolvedores, no papel de usuários do portal, a partir das técnicas de rastreamento do mouse, do olho e do teclado, além de transcrição de fala. As versões do módulo cliente encontram-se no diretório `clients`.
 
