@@ -35,7 +35,7 @@ Repositório destinado a abrigar o código-fonte de todas as aplicações relaci
 ## Registro
 Para o registro do usuário, será necessário e-mail e senha. Sendo possível recuperar a senha caso perdida. Cada usuário tem suas próprias pesquisas armazenadas em sua conta.
 ## Módulos
-A UX-Tracking é constituída de 3 módulos: Cliente, Servidor de armazenamento, e visualizador. Os três módulos são responsáveis respectivamente por coletar dados de interação; organizar e armazenar; e prover formas de visualizar os dados capturados. Os módulos são descritos a seguir.
+A UX-Tracking é constituída de 3 módulos: Cliente, Web App e visualizador. Os três módulos são responsáveis respectivamente por coletar dados de interação; organizar e armazenar; e prover formas de visualizar os dados capturados. Os módulos são descritos a seguir.
 ### Cliente
 Desenvolvido como uma extensão do navegador Google Chrome utilizando Javascript, este módulo é responsável por capturar - do lado cliente - as interações dos desenvolvedores, no papel de usuários do portal, a partir das técnicas de rastreamento do mouse, do olho e do teclado, além de transcrição de fala. As versões do módulo cliente encontram-se no diretório `clients`.
 
