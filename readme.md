@@ -56,7 +56,7 @@ Utilizando o [WebKit Voice Recognition](https://developer.mozilla.org/en-US/docs
 Após o registro do usuário, a aplicação web, através do login do usuário, disponibilizará os dados coletados, de forma condensada, para o usuário através de um CSV com data e hora da coleta. Os dados do CSV incluem sites visitados, voz, rastreio do mouse e rastreio dos olhos. 
 
 ### Pós-processamento de dados
-A aplicação conta, atualmente, com três módulos de pós-processamento de dados de dados, sendo eles:
+A aplicação conta, atualmente, com quatro módulos de pós-processamento de dados de dados, sendo eles:
 #### K-means clustering
 Este componente, ou submódulo, reproduz individualmente cada amostra capturada, conforme a escolha do usuário permitindo a visualização dos dados clusterizados do modelo de agrupamento k-means.
 #### Agglomerated-Cluster
@@ -65,7 +65,7 @@ Este componente produz um agrupamento hierárquico de clusters, conforme a entra
 Este componente gera o deslocamento médio do dado de entrada escolhido pelo usuário.
 
 ### Visualizador
-A aplicação desktop é responsável por permitir a visualização dos dados. Possui três recursos de visualização, descritos a seguir.
+A aplicação desktop é responsável por permitir a visualização dos dados. Possui três recursos de visualização, descritos a seguir:
 #### Reprodução de sessão
 Este componente, ou submódulo, reproduz individualmente cada amostra capturada, permitindo a visualização quadro-a-quadro dos movimentos do desenvolvedor registrados a partir das técnicas de rastreamento domouse e do olho. Para a composição da visualização, o módulo utiliza captura de telas registradas durante a interação, e sobre essas posiciona pontos e linhas contínuas representando o caminho percorrido e ações realizadas pelo usuário.
 #### Mapa de calor
