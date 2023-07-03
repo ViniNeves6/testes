@@ -53,7 +53,7 @@ A extensão também pode capturar entradas de teclado, registrando a digitação
 Utilizando o [WebKit Voice Recognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition), o módulo cliente é capaz de capturar voz, incluindo pausas, transcrevendo e enviando como entradas de texto.
 
 ### Web App
-Após o registro do usuário, a aplicação web, através do login do usuário, disponibilizará os dados coletados, de forma condensada, pelo usuário através de um CSV com data e hora da coleta. Os dados do CSV incluem sites visitados, voz, rastreio do mouse e rastreio dos olhos. 
+Após o registro do usuário, a aplicação web, através do login do usuário, disponibilizará os dados coletados, de forma condensada, para o usuário através de um CSV com data e hora da coleta. Os dados do CSV incluem sites visitados, voz, rastreio do mouse e rastreio dos olhos. 
 
 ### Pós-processamento de dados
 A aplicação conta, atualmente, com três módulos de pós-processamento de dados de dados, sendo eles:
