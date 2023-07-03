@@ -5,9 +5,8 @@ Repositório destinado a abrigar o código-fonte de todas as aplicações relaci
 ![Video_1688381473_Trim](https://github.com/ViniNeves6/testes/assets/91764267/b6001b29-ecf2-422f-b66c-5cf82db67cff)
 
 <div align="center">
-<img src="![Video_1688381473_Trim](https://github.com/ViniNeves6/testes/assets/91764267/b6001b29-ecf2-422f-b66c-5cf82db67cff)" width="700px" />
+<img src="https://github.com/ViniNeves6/testes/assets/91764267/b6001b29-ecf2-422f-b66c-5cf82db67cff" width="700px" />
 </div>
-
 
 
 
