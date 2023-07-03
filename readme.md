@@ -1,6 +1,6 @@
 ![Badge](https://img.shields.io/badge/PHP-7.0-information?style=flat&logo=PHP&logoColor=white&color=777BB4![Badge])  ![Badge](https://img.shields.io/badge/framework-%204.5.2-information?style=flat&logo=.NET&logoColor=white&color=512BD4)  ![Badge](https://img.shields.io/badge/%20-5.0-information?style=flat&logo=.NET&logoColor=white&color=512BD4) ![Badge](https://img.shields.io/badge/VS%20Code-1.60-information?style=flat&logo=Visual-Studio-Code&logoColor=white&color=007ACC)
- # T2-UXT: Tracking Techniques User eXperience Tool
-Repositório destinado a abrigar o código-fonte de todas as aplicações relacionadas ao ecossistema da T2-UXT.
+ # UX-Tracking: User eXperience Traking
+Repositório destinado a abrigar o código-fonte de todas as aplicações relacionadas ao ecossistema da ferramenta UX-Tracking.
 
 ## Tabela de conteúdos
 
@@ -24,12 +24,12 @@ Repositório destinado a abrigar o código-fonte de todas as aplicações relaci
 📃 Para a abertura dos projetos contidos neste repositório, estabelecem-se os seguintes requisitos:
 
 *  [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0)
-*  [Servidor PHP](https://www.apachefriends.org/index.html)
+*  [Python](https://www.python.org/)
 *  [Visual Studio Code](https://code.visualstudio.com/download)
 *  [Google Chrome](https://www.google.com/chrome/)
 
 ## Módulos
-A T2-UXT é constituída de 3 módulos: Cliente, Servidor de armazenamento, e visualizador. Os três módulos são responsáveis respectivamente por coletar dados de interação; organizar e armazenar; e prover formas de visualizar os dados capturados. Os módulos são descritos a seguir.
+A UX-Traking é constituída de 3 módulos: Cliente, Servidor de armazenamento, e visualizador. Os três módulos são responsáveis respectivamente por coletar dados de interação; organizar e armazenar; e prover formas de visualizar os dados capturados. Os módulos são descritos a seguir.
 ### Cliente
 Desenvolvido como uma extensão do navegador Google Chrome utilizando Javascript, este módulo é responsável por capturar - do lado cliente - as interações dos desenvolvedores, no papel de usuários do portal, a partir das técnicas de rastreamento do mouse, do olho e do teclado, além de transcrição de fala. As versões do módulo cliente encontram-se no diretório `clients`.
 
@@ -44,9 +44,9 @@ O rastreamento ocular é realizado por meio de uma versão modificada do [WebGaz
 #### Keylogging
 A extensão também pode capturar entradas de teclado, registrando a digitação de caracteres.
 #### Transcrição de voz
-Utilizando o [WebKit Voice Recognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition), o módulo cliente é capaz de capturar voz, transcrever e enviar como entrada de texto.
+Utilizando o [WebKit Voice Recognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition), o módulo cliente é capaz de capturar voz, incluindo pausas, transcrevendo e enviando como entradas de texto.
 ### Armazenamento
-Desenvolvido em PHP, o módulo de armazenamento é o responsável por receber as requisições contendo dados de rastreamento de interações, e em seguida organizá-los e armazená-los. O código-fonte pode ser encontrado no diretório `server`.
+Utilizando nosso [Servidor] (uxtracking.andrepereira.eng.br/), o módulo de armazenamento é o responsável por receber as requisições contendo dados de rastreamento de interações, e em seguida organizá-los e armazená-los.
 ### Visualizador
 Aplicação desktop desenvolvida em C#/WPF, utilizando .NET Framework 4.5, é responsável por permitir a visualização dos dados armazenados no módulo anterior. Possui três recursos de visualização, descritos a seguir.
 #### Reprodução de sessão
@@ -57,10 +57,10 @@ Este componente produz um mapa de calor para o rastreamento do mouse e do olho. 
 Este componente gera uma planilha que consolida os valores das métricas utilizadas na captura das interações dos desenvolvedores. A tabela gerada pode ser exportada para utilização em outras ferramentas como, por exemplo, modelos de inteligência artificial e de classificação. 
 #### Download do estudo
 O procedimento:<br/>
-1º - Acesse o link -> https://t2uxtweb.azurewebsites.net/downloadresearch.php <br/>
-2º - Clique no botão "Criar Zip" <br/>
-3º - Clique no botão "Download" <br/>
+1º - Acesse o link -> https://uxtracking.andrepereira.eng.br/ <br/>
+2º - Clique no botão "Download Research" <br/>
 Após os passos acima, o download do zip da pasta Samples será iniciado. <br/>
+Para o download da ferramenta de visualização, basta clicar no botão "Ferramenta de Pós-processamento" e o download será iniciado. <br>
 ## Tecnologias
 * [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/)
 * [.NET 5](https://docs.microsoft.com/pt-br/dotnet/)
