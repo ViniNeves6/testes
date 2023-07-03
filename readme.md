@@ -65,4 +65,4 @@ Para o download da ferramenta de visualização, basta clicar no botão "Ferrame
 * [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/)
 * [.NET 5](https://docs.microsoft.com/pt-br/dotnet/)
 * [JavaScript](https://www.javascript.com/)
-* [PHP](https://php.net/)
+* [Python](https://www.python.org/)
